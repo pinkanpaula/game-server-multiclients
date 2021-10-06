@@ -1,0 +1,17 @@
+{
+  "name": "gameapp",
+  "version": "^8.13.0^",
+  "description": "game server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+ "engines" : { "node" : "^8.13.0 || >=10.10.0"  },
+  "author": "paula",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/agones-sdk": "^1.18.0-rc",
+    "express": "^4.17.1",
+    "util.promisify": "^1.1.1"
+  }
+}
